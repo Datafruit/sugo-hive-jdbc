@@ -17,7 +17,7 @@ const conf = {
 
 const main = async () => {
   const hive = new HiveJdbc(conf)
-  const conn = await hive.getConnection()
+  // const conn = await hive.getConnection()
   // const res = await hiveKit.runQuery('select * from users where userid=? limit 10', ['c81e728d9d4c2f636f067f89cc14862c'])
   const res = await hive.runQuery('select count(*) from users')
   console.log(res)
