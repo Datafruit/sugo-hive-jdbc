@@ -1,0 +1,26 @@
+{
+  "name": "sugo-hive-jdbc",
+  "version": "1.0.0",
+  "description": "nodejs jdbc for hive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "files": [
+    "drivers/"
+  ],
+  "keywords": [
+    "hive",
+    "jdbc"
+  ],
+  "author": "WuQic",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jdbc": "^0.6.1",
+    "lodash": "^4.17.5"
+  }
+}
