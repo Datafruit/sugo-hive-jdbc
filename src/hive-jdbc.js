@@ -52,7 +52,8 @@ module.exports = class HiveJdbc {
       jinst.addOption("-Xrs")
       jinst.setupClasspath([
         path.resolve(__dirname, '../drivers/hive-jdbc-2.1.0-standalone.jar'),
-        path.resolve(__dirname, '../drivers/hadoop-common-2.7.0-mapr-1607.jar')
+        path.resolve(__dirname, '../drivers/hadoop-common-2.7.0-mapr-1607.jar'),
+        path.resolve(__dirname, '../drivers/protobuf-java-2.5.0.jar')
       ])
     }
     this.Connection = null
